@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO essentials -->
+  <title>Categories — Depth Meets Space | Interior Design, Architecture, Materials</title>
+  <meta name="description" content="Browse all categories on Depth Meets Space: interior design, architecture, materials, lighting, space planning, and more. Independent editorial for design readers.">
+  <meta name="author" content="Depth Meets Space Editorial">
+  <link rel="canonical" href="https://www.depthmeetsspace.com/categories.html">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Categories — Depth Meets Space">
+  <meta property="og:description" content="Browse all categories on Depth Meets Space: interior design, architecture, materials, lighting, space planning, and more.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.depthmeetsspace.com/categories.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=630&fit=crop">
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Categories — Depth Meets Space",
+    "description": "Browse all categories on Depth Meets Space: interior design, architecture, materials, lighting, space planning, and more.",
+    "url": "https://www.depthmeetsspace.com/categories.html",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "Depth Meets Space Editorial",
+      "description": "An independent journal covering interior design, architecture, materials, lighting, and space planning."
+    }
+  }
+  </script>
+  <!-- Fonts & base styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&family=Playfair+Display:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <style>
+    /* ----- RESET & VARIABLES (consistent with homepage / terms) ----- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    :root {
+      --bg: #fcfaf7;
+      --surface: #ffffff;
+      --text: #1e1e1e;
+      --text-secondary: #4a4a4a;
+      --muted: #7a7a7a;
+      --border: #e3dfd9;
+      --accent: #b16d4b;
+      --accent-soft: #f0e7e0;
+      --card-bg: #ffffff;
+      --shadow-sm: 0 4px 12px rgba(0,0,0,0.02), 0 1px 2px rgba(0,0,0,0.03);
+      --font-serif: 'Playfair Display', Georgia, serif;
+      --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+      --max-width: 1280px;
+      --content-width: 720px;
+      --radius: 8px;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-sans);
+      font-size: 1rem;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+    a {
+      color: var(--text);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    a:hover {
+      color: var(--accent);
+    }
+    /* ----- TYPOGRAPHY ----- */
+    h1, h2, h3, h4 {
+      font-family: var(--font-serif);
+      font-weight: 500;
+      line-height: 1.2;
+    }
+    h1 {
+      font-size: 2.6rem;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.25rem;
+    }
+    h2 {
+      font-size: 2rem;
+      letter-spacing: -0.01em;
+      margin: 2rem 0 1rem;
+    }
+    h3 {
+      font-size: 1.4rem;
+      margin: 1.75rem 0 0.75rem;
+    }
+    h4 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      font-family: var(--font-sans);
+      margin: 1.5rem 0 0.5rem;
+    }
+    p {
+      margin-bottom: 1.4rem;
+      color: var(--text-secondary);
+    }
+    /* ----- LAYOUT ----- */
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+    /* ----- HEADER (same as homepage/terms) ----- */
+    .site-header {
+      border-bottom: 1px solid var(--border);
+      background: var(--surface);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(8px);
+      background: rgba(255,255,255,0.92);
+    }
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.9rem 0;
+    }
+    .logo {
+      display: flex;
+      align-items: baseline;
+      gap: 0.3rem;
+      font-family: var(--font-serif);
+      font-size: 1.7rem;
+      font-weight: 600;
+      letter-spacing: -0.03em;
+      color: var(--text);
+    }
+    .logo span {
+      font-weight: 300;
+      font-style: italic;
+      color: var(--accent);
+    }
+    .main-nav ul {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    .main-nav a {
+      color: var(--text-secondary);
+      padding-bottom: 0.2rem;
+      border-bottom: 1px solid transparent;
+    }
+    .main-nav a:hover,
+    .main-nav a.active {
+      color: var(--text);
+      border-bottom-color: var(--accent);
+    }
+    @media (max-width: 760px) {
+      .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+      }
+      .main-nav ul {
+        flex-wrap: wrap;
+        gap: 1.2rem;
+        font-size: 0.8rem;
+      }
+    }
+
+    /* ----- CATEGORIES PAGE SPECIFIC ----- */
+    .page-hero {
+      padding: 3rem 0 1.5rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 2.5rem;
+    }
+    .page-hero h1 {
+      font-size: 3.2rem;
+      max-width: 900px;
+      margin-bottom: 0.75rem;
+      line-height: 1.1;
+    }
+    .page-hero .lead {
+      font-size: 1.3rem;
+      color: var(--text-secondary);
+      max-width: 700px;
+      font-weight: 300;
+      line-height: 1.5;
+    }
+
+    /* category grid */
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2rem;
+      margin: 2rem 0 3rem;
+    }
+    .category-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+    }
+    .category-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.06), 0 2px 4px rgba(0,0,0,0.02);
+    }
+    .category-image {
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      background: var(--accent-soft);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .category-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .category-card:hover .category-image img {
+      transform: scale(1.02);
+    }
+    .category-content {
+      padding: 1.5rem 1.5rem 1.75rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .category-content h2 {
+      font-size: 1.7rem;
+      margin: 0 0 0.5rem;
+      letter-spacing: -0.01em;
+    }
+    .category-content h2 a {
+      color: var(--text);
+    }
+    .category-content h2 a:hover {
+      color: var(--accent);
+    }
+    .category-desc {
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+      margin-bottom: 1.25rem;
+      flex: 1;
+    }
+    .category-meta {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      border-top: 1px solid var(--border);
+      padding-top: 1rem;
+      margin-top: 0.25rem;
+    }
+    .category-meta span {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+    .category-meta .dot {
+      width: 3px;
+      height: 3px;
+      background: var(--muted);
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    /* featured categories row (small accent) */
+    .featured-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1.5rem;
+      margin: 0.5rem 0 2.5rem;
+      padding: 0 0 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .featured-strip .label {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      font-weight: 500;
+      margin-right: 0.5rem;
+    }
+    .featured-strip a {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      border-bottom: 1px solid transparent;
+      padding-bottom: 2px;
+    }
+    .featured-strip a:hover {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
+    /* ----- FOOTER (same as terms) ----- */
+    .site-footer {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      padding: 3rem 0 2rem;
+      margin-top: 2rem;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 2rem;
+    }
+    @media (max-width: 800px) {
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media (max-width: 500px) {
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .footer-brand p {
+      font-size: 0.9rem;
+      max-width: 300px;
+      margin-top: 0.5rem;
+    }
+    .footer-col h4 {
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 1.25rem;
+      color: var(--muted);
+    }
+    .footer-col ul {
+      list-style: none;
+    }
+    .footer-col li {
+      margin-bottom: 0.6rem;
+      font-size: 0.9rem;
+    }
+    .footer-bottom {
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+      margin-top: 2.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Depth<span>Meets</span>Space</a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="terms.html">Terms Of Privacy</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="cookies.html">Cookies Policy</a></li>
+          <li><a href="disclaimer.html">Disclaimer</a></li>
+          <li><a href="categories.html" class="active">Categories</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <h1>Categories</h1>
+      <p class="lead">Explore our editorial pillars — from interior design and architecture to materials, lighting, and spatial thinking.</p>
+    </section>
+
+    <!-- FEATURED STRIP (quick links) -->
+    <div class="featured-strip">
+      <span class="label">Popular:</span>
+      <a href="#">Interior Design</a>
+      <a href="#">Architecture</a>
+      <a href="#">Materials</a>
+      <a href="#">Lighting</a>
+      <a href="#">Space Planning</a>
+      <a href="#">Sustainability</a>
+      <a href="#">Histories</a>
+    </div>
+
+    <!-- CATEGORY GRID -->
+    <div class="category-grid">
+      <!-- 1. Interior Design -->
+      <article class="category-card">
+        <div class="category-image">
+          <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&h=400&fit=crop" alt="Interior design living space with natural light" loading="lazy">
+        </div>
+        <div class="category-content">
+          <h2><a href="#">Interior Design</a></h2>
+          <p class="category-desc">Residential and commercial interiors, styling, furniture, colour theory, and the details that make a room feel whole.</p>
+          <div class="category-meta">
+            <span>24 articles</span>
+            <span class="dot"></span>
+            <span>Updated weekly</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 2. Architecture -->
+      <article class="category-card">
+        <div class="category-image">
+          <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=600&h=400&fit=crop" alt="Modern architecture facade" loading="lazy">
+        </div>
+        <div class="category-content">
+          <h2><a href="#">Architecture</a></h2>
+          <p class="category-desc">Buildings, urbanism, adaptive reuse, and the stories behind structures — from iconic landmarks to quiet residential works.</p>
+          <div class="category-meta">
+            <span>18 articles</span>
+            <span class="dot"></span>
+            <span>Criticism & essays</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 3. Materials -->
+      <article class="category-card">
+        <div class="category-image">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop" alt="Material samples: wood, stone, concrete" loading="lazy">
+        </div>
+        <div class="category-content">
+          <h2><a href="#">Materials</a></h2>
+          <p class="category-desc">Stone, timber, concrete, glass, metals, and textiles — their properties, applications, and the sensory experience they create.</p>
+          <div class="category-meta">
+            <span>15 articles</span>
+            <span class="dot"></span>
+            <span>Technical & tactile</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 4. Lighting -->
+      <article class="category-card">
+        <div class="category-image">
+          <img src="https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&h=400&fit=crop" alt="Architectural lighting detail" loading="lazy">
+        </div>
+        <div class="category-content">
+          <h2><a href="#">Lighting</a></h2>
+          <p class="category-desc">Natural and artificial light, fixtures, mood, and the role of illumination in shaping atmosphere and function.</p>
+          <div class="category-meta">
+            <span>12 articles</span>
+            <span class="dot"></span>
+            <span>Design & technology</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 5. Space Planning -->
+      <article class="category-card">
+        <div class="category-image">
+          <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600&h=400&fit=crop" alt="Open plan interior layout" loading="lazy">
+        </div>
+        <div class="category-content">
+          <h2><a href="#">Space Planning</a></h2>
+          <p class="category-desc">Layouts, flow, ergonomics, and the invisible logic that makes a space feel intuitive and generous.</p>
+          <div class="category-meta">
+            <span>10 articles</span>
+            <span class="dot"></span>
+            <span>Practical guides</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 6. Sustainability -->
+      <article class="category-card">
+        <div class="category-image">
+          <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=600&h=400&fit=crop" alt="Green building and plants" loading="lazy">
+        </div>
+        <div class="category-content">
+          <h2><a href="#">Sustainability</a></h2>
+          <p class="category-desc">Eco-conscious design, passive strategies, low-impact materials, and the future of responsible building.</p>
+          <div class="category-meta">
+            <span>9 articles</span>
+            <span class="dot"></span>
+            <span>Environment & ethics</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 7. Histories -->
+      <article class="category-card">
+        <div class="category-image">
+          <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?w=600&h=400&fit=crop" alt="Historical interior detail" loading="lazy">
+        </div>
+        <div class="category-content">
+          <h2><a href="#">Histories</a></h2>
+          <p class="category-desc">Movements, periods, and forgotten figures — context for the design language we speak today.</p>
+          <div class="category-meta">
+            <span>14 articles</span>
+            <span class="dot"></span>
+            <span>Research & archive</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 8. Studio Visits -->
+      <article class="category-card">
+        <div class="category-image">
+          <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=600&h=400&fit=crop" alt="Design studio workspace" loading="lazy">
+        </div>
+        <div class="category-content">
+          <h2><a href="#">Studio Visits</a></h2>
+          <p class="category-desc">Inside the workshops and ateliers of designers, makers, and architects we admire.</p>
+          <div class="category-meta">
+            <span>7 articles</span>
+            <span class="dot"></span>
+            <span>Interviews & tours</span>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- optional small note (editorial) -->
+    <p style="font-size:0.9rem; color: var(--muted); border-top:1px solid var(--border); padding-top:2rem; margin-top:1rem;">
+      <strong>Note:</strong> Depth Meets Space is independent. We do not accept payment for coverage. All categories reflect our editorial focus.
+    </p>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" style="font-size:1.5rem;">Depth<span>Meets</span>Space</a>
+          <p>Independent editorial on interior design, architecture, and the built environment.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Interior Design</a></li>
+            <li><a href="#">Architecture</a></li>
+            <li><a href="#">Materials</a></li>
+            <li><a href="#">Lighting</a></li>
+            <li><a href="#">Space Planning</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+            <li><a href="cookies.html">Cookie Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Follow</h4>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Pinterest</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Newsletter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Depth Meets Space. All rights reserved.</span>
+        <span>Made with care for design readers.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- small script for smooth anchor (optional) -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        if (href === '#') return;
+        const target = document.querySelector(href);
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>

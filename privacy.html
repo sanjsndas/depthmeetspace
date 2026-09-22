@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO essentials -->
+  <title>Privacy Policy — Depth Meets Space</title>
+  <meta name="description" content="Privacy Policy for Depth Meets Space. Learn how we collect, use, and protect your personal information when you visit our editorial site.">
+  <meta name="author" content="Depth Meets Space Editorial">
+  <link rel="canonical" href="https://www.depthmeetsspace.com/privacy.html">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Privacy Policy — Depth Meets Space">
+  <meta property="og:description" content="How we handle your data with care and transparency.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.depthmeetsspace.com/privacy.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=630&fit=crop">
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Privacy Policy — Depth Meets Space",
+    "description": "Privacy Policy outlining data collection, usage, and protection practices.",
+    "url": "https://www.depthmeetsspace.com/privacy.html"
+  }
+  </script>
+  <!-- Fonts & base styles (identical to main) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&family=Playfair+Display:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <style>
+    /* ----- RESET & VARIABLES (matching main site) ----- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    :root {
+      --bg: #fcfaf7;
+      --surface: #ffffff;
+      --text: #1e1e1e;
+      --text-secondary: #4a4a4a;
+      --muted: #7a7a7a;
+      --border: #e3dfd9;
+      --accent: #b16d4b;
+      --accent-soft: #f0e7e0;
+      --card-bg: #ffffff;
+      --shadow-sm: 0 4px 12px rgba(0,0,0,0.02), 0 1px 2px rgba(0,0,0,0.03);
+      --font-serif: 'Playfair Display', Georgia, serif;
+      --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+      --max-width: 1280px;
+      --content-width: 720px;
+      --radius: 8px;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-sans);
+      font-size: 1rem;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+    a {
+      color: var(--text);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    a:hover {
+      color: var(--accent);
+    }
+    /* ----- TYPOGRAPHY ----- */
+    h1, h2, h3, h4 {
+      font-family: var(--font-serif);
+      font-weight: 500;
+      line-height: 1.2;
+    }
+    h1 {
+      font-size: 2.6rem;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.25rem;
+    }
+    h2 {
+      font-size: 2rem;
+      letter-spacing: -0.01em;
+      margin: 2rem 0 1rem;
+    }
+    h3 {
+      font-size: 1.4rem;
+      margin: 1.75rem 0 0.75rem;
+    }
+    h4 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      font-family: var(--font-sans);
+      margin: 1.5rem 0 0.5rem;
+    }
+    p {
+      margin-bottom: 1.4rem;
+      color: var(--text-secondary);
+    }
+    ul, ol {
+      margin-bottom: 1.4rem;
+      padding-left: 1.5rem;
+      color: var(--text-secondary);
+    }
+    li {
+      margin-bottom: 0.4rem;
+    }
+    /* ----- LAYOUT ----- */
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+    /* ----- HEADER (exactly as main) ----- */
+    .site-header {
+      border-bottom: 1px solid var(--border);
+      background: var(--surface);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(8px);
+      background: rgba(255,255,255,0.92);
+    }
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.9rem 0;
+    }
+    .logo {
+      display: flex;
+      align-items: baseline;
+      gap: 0.3rem;
+      font-family: var(--font-serif);
+      font-size: 1.7rem;
+      font-weight: 600;
+      letter-spacing: -0.03em;
+      color: var(--text);
+    }
+    .logo span {
+      font-weight: 300;
+      font-style: italic;
+      color: var(--accent);
+    }
+    .main-nav ul {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    .main-nav a {
+      color: var(--text-secondary);
+      padding-bottom: 0.2rem;
+      border-bottom: 1px solid transparent;
+    }
+    .main-nav a:hover,
+    .main-nav a.active {
+      color: var(--text);
+      border-bottom-color: var(--accent);
+    }
+    @media (max-width: 760px) {
+      .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+      }
+      .main-nav ul {
+        flex-wrap: wrap;
+        gap: 1.2rem;
+        font-size: 0.8rem;
+      }
+    }
+
+    /* ----- PRIVACY PAGE SPECIFIC ----- */
+    .privacy-hero {
+      padding: 2.5rem 0 1.5rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 2.5rem;
+    }
+    .privacy-hero h1 {
+      font-size: 2.4rem;
+      max-width: 780px;
+      margin-bottom: 0.75rem;
+    }
+    .privacy-hero p {
+      font-size: 1.2rem;
+      color: var(--text-secondary);
+      max-width: 700px;
+      font-weight: 300;
+    }
+    .privacy-content {
+      max-width: var(--content-width);
+      margin: 0 auto 3rem;
+    }
+    .privacy-content h2 {
+      font-size: 1.8rem;
+      margin-top: 2.5rem;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .privacy-content h3 {
+      font-size: 1.3rem;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .privacy-content p {
+      font-size: 1rem;
+    }
+    .privacy-content ul {
+      list-style: disc;
+    }
+    .privacy-content .highlight-box {
+      background: var(--surface);
+      border-left: 4px solid var(--accent);
+      padding: 1.5rem 2rem;
+      border-radius: 0 var(--radius) var(--radius) 0;
+      margin: 2rem 0;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--border);
+      border-left-width: 4px;
+    }
+    .privacy-content .highlight-box p:last-child {
+      margin-bottom: 0;
+    }
+    .privacy-content .meta {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-bottom: 2rem;
+      font-style: italic;
+    }
+    .privacy-content .meta span {
+      display: inline-block;
+      margin-right: 1.5rem;
+    }
+
+    /* ----- FOOTER (exactly as main) ----- */
+    .site-footer {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      padding: 3rem 0 2rem;
+      margin-top: 2rem;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 2rem;
+    }
+    @media (max-width: 800px) {
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media (max-width: 500px) {
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .footer-brand p {
+      font-size: 0.9rem;
+      max-width: 300px;
+      margin-top: 0.5rem;
+    }
+    .footer-col h4 {
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 1.25rem;
+      color: var(--muted);
+    }
+    .footer-col ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .footer-col li {
+      margin-bottom: 0.6rem;
+      font-size: 0.9rem;
+    }
+    .footer-bottom {
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+      margin-top: 2.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+    .hidden {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Depth<span>Meets</span>Space</a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="terms.html">Terms Of Privacy</a></li>
+          <li><a href="privacy.html" class="active">Privacy Policy</a></li>
+          <li><a href="cookies.html">Cookies Policy</a></li>
+          <li><a href="disclaimer.html">Disclaimer</a></li>
+          <li><a href="categories.html">Categories</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- PRIVACY HERO -->
+    <section class="privacy-hero">
+      <h1>Privacy Policy</h1>
+      <p>We believe in transparency. This policy explains what data we collect, why we collect it, and how we keep it safe.</p>
+    </section>
+
+    <!-- PRIVACY CONTENT -->
+    <div class="privacy-content">
+      <div class="meta">
+        <span><strong>Last updated:</strong> April 15, 2025</span>
+        <span><strong>Effective:</strong> April 15, 2025</span>
+      </div>
+
+      <p><strong>Depth Meets Space</strong> ("we", "our", "us") operates the website <a href="https://www.depthmeetsspace.com">www.depthmeetsspace.com</a> (the "Site"). This Privacy Policy describes how we collect, use, and share information about you when you visit our Site, contact us, or interact with our editorial content. We are committed to protecting your privacy and handling your data with care and respect.</p>
+
+      <div class="highlight-box">
+        <p><strong>In short:</strong> We collect minimal data to improve your reading experience. We never sell your personal information. You have control over your data and can contact us anytime to ask questions or request deletion.</p>
+      </div>
+
+      <h2>1. Information We Collect</h2>
+      <p>We collect information in two ways: information you voluntarily provide and information automatically collected through your use of the Site.</p>
+
+      <h3>Information you provide to us</h3>
+      <ul>
+        <li><strong>Contact form submissions:</strong> When you use our contact form, we collect your name, email address, subject, and message content.</li>
+        <li><strong>Email correspondence:</strong> If you email us directly, we retain the content of your message and your email address.</li>
+        <li><strong>Newsletter signup:</strong> If you subscribe to our newsletter, we collect your email address and optional name.</li>
+        <li><strong>Comments or feedback:</strong> Any information you voluntarily submit through comment forms or feedback tools.</li>
+      </ul>
+
+      <h3>Information automatically collected</h3>
+      <ul>
+        <li><strong>Log data:</strong> Like most websites, we automatically receive information from your browser, including your IP address, browser type, operating system, referring pages, and timestamps.</li>
+        <li><strong>Analytics data:</strong> We use privacy-respecting analytics to understand how visitors use our Site — such as pages visited, time spent, and general geographic region (country level). This data is aggregated and does not identify you personally.</li>
+        <li><strong>Cookies and similar technologies:</strong> We use essential cookies to make the Site work and optional cookies for analytics. See our <a href="cookies.html">Cookies Policy</a> for details.</li>
+      </ul>
+
+      <h2>2. How We Use Your Information</h2>
+      <p>We use the information we collect for the following purposes:</p>
+      <ul>
+        <li>To respond to your inquiries, pitches, and feedback.</li>
+        <li>To send you our newsletter if you have opted in (you can unsubscribe at any time).</li>
+        <li>To improve our content, site design, and user experience.</li>
+        <li>To monitor and analyze usage trends and preferences.</li>
+        <li>To protect the security and integrity of our Site.</li>
+        <li>To comply with legal obligations.</li>
+      </ul>
+
+      <h2>3. Legal Basis for Processing (GDPR)</h2>
+      <p>If you are located in the European Economic Area (EEA), our legal basis for collecting and using your personal information depends on the data and context:</p>
+      <ul>
+        <li><strong>Consent:</strong> You have given us permission to process your data for a specific purpose (e.g., newsletter signup, optional cookies).</li>
+        <li><strong>Legitimate interest:</strong> Processing is necessary for our legitimate interests, such as improving our Site, responding to inquiries, and ensuring security, provided your rights do not override these interests.</li>
+        <li><strong>Contract:</strong> Processing is necessary to fulfill a contract with you (e.g., if you engage us for a collaboration).</li>
+        <li><strong>Legal obligation:</strong> Processing is necessary to comply with the law.</li>
+      </ul>
+
+      <h2>4. Sharing and Disclosure</h2>
+      <p>We do not sell, trade, or rent your personal information to third parties. We may share your information only in the following limited circumstances:</p>
+      <ul>
+        <li><strong>Service providers:</strong> We use trusted third-party services (e.g., email delivery, analytics) that process data on our behalf. These providers are contractually obligated to protect your data and only use it for the services they provide to us.</li>
+        <li><strong>Legal requirements:</strong> We may disclose your information if required by law, regulation, legal process, or governmental request.</li>
+        <li><strong>Protection of rights:</strong> We may disclose information when we believe it is necessary to protect our rights, property, or safety, or that of our users or others.</li>
+        <li><strong>Business transfers:</strong> In the event of a merger, acquisition, or sale of assets, your information may be transferred as part of that transaction. We will notify you of any such change.</li>
+      </ul>
+
+      <h2>5. Data Retention</h2>
+      <p>We retain your personal information only as long as necessary to fulfill the purposes outlined in this policy, unless a longer retention period is required or permitted by law. For example:</p>
+      <ul>
+        <li>Contact form submissions are kept for up to 24 months to handle follow-ups and inquiries.</li>
+        <li>Newsletter subscription data is retained until you unsubscribe or request deletion.</li>
+        <li>Analytics data is aggregated and retained indefinitely as it does not identify individuals.</li>
+      </ul>
+
+      <h2>6. Your Rights</h2>
+      <p>Depending on your location, you may have the following rights regarding your personal information:</p>
+      <ul>
+        <li><strong>Access:</strong> Request a copy of the personal data we hold about you.</li>
+        <li><strong>Correction:</strong> Request that we correct inaccurate or incomplete data.</li>
+        <li><strong>Deletion:</strong> Request that we delete your personal data (subject to certain exceptions).</li>
+        <li><strong>Restriction:</strong> Request that we restrict processing of your data.</li>
+        <li><strong>Portability:</strong> Request transfer of your data to another organization.</li>
+        <li><strong>Objection:</strong> Object to our processing of your data based on legitimate interests.</li>
+        <li><strong>Withdraw consent:</strong> Withdraw consent at any time where processing is based on consent.</li>
+      </ul>
+      <p>To exercise any of these rights, please contact us at <a href="mailto:privacy@depthmeetsspace.com">privacy@depthmeetsspace.com</a>. We will respond to your request within 30 days. You also have the right to lodge a complaint with your local data protection authority.</p>
+
+      <h2>7. Data Security</h2>
+      <p>We take reasonable technical and organizational measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. These measures include:</p>
+      <ul>
+        <li>Encryption of data in transit (SSL/TLS).</li>
+        <li>Regular security reviews and updates.</li>
+        <li>Access controls to limit who can view your data.</li>
+        <li>Secure storage practices for any data we retain.</li>
+      </ul>
+      <p>However, no method of transmission over the Internet or electronic storage is 100% secure. While we strive to protect your data, we cannot guarantee absolute security.</p>
+
+      <h2>8. International Data Transfers</h2>
+      <p>Our Site is operated from Italy and hosted on servers located in the European Union. If you are accessing our Site from outside the EU, please note that your information may be transferred to, stored, and processed in the EU. We take steps to ensure that any international transfers comply with applicable data protection laws and that your data receives adequate protection.</p>
+
+      <h2>9. Children's Privacy</h2>
+      <p>Our Site is not directed to individuals under the age of 16. We do not knowingly collect personal information from children. If you believe we have inadvertently collected information from a child, please contact us and we will delete it promptly.</p>
+
+      <h2>10. Third-Party Links</h2>
+      <p>Our Site may contain links to third-party websites, including social media platforms and external resources. We are not responsible for the privacy practices or content of those sites. We encourage you to review the privacy policies of any third-party sites you visit.</p>
+
+      <h2>11. Changes to This Privacy Policy</h2>
+      <p>We may update this Privacy Policy from time to time to reflect changes in our practices, technology, or legal requirements. We will post the updated policy on this page with a revised "Last updated" date. We encourage you to review this policy periodically. Your continued use of the Site after any changes constitutes acceptance of the updated policy.</p>
+
+      <h2>12. Contact Us</h2>
+      <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:</p>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:privacy@depthmeetsspace.com">privacy@depthmeetsspace.com</a></li>
+        <li><strong>Editorial office:</strong> Via Brera 12, 20121 Milano, Italy</li>
+        <li><strong>Phone:</strong> +39 02 1234 5678</li>
+      </ul>
+      <p>We are committed to resolving any privacy concerns you may have and will respond promptly to your inquiries.</p>
+
+      <div class="highlight-box" style="margin-top:2.5rem;">
+        <p><strong>Thank you for trusting Depth Meets Space.</strong> We value your readership and your privacy. If you have any questions about this policy, please don't hesitate to <a href="contact.html">reach out</a>.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" id="about">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" style="font-size:1.5rem;">Depth<span>Meets</span>Space</a>
+          <p>Independent editorial on interior design, architecture, and the built environment.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Interior Design</a></li>
+            <li><a href="#">Architecture</a></li>
+            <li><a href="#">Materials</a></li>
+            <li><a href="#">Lighting</a></li>
+            <li><a href="#">Space Planning</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+            <li><a href="cookies.html">Cookie Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Follow</h4>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Pinterest</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Newsletter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Depth Meets Space. All rights reserved.</span>
+        <span>Made with care for design readers.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT (minimal, consistent with main) -->
+  <script>
+    // Smooth anchor scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        if (href === '#') return;
+        const target = document.querySelector(href);
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>

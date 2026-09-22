@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO essentials -->
+  <title>About — Depth Meets Space | Editorial Mission, Team & Values</title>
+  <meta name="description" content="Learn about Depth Meets Space: an independent journal on interior design, architecture, and the built environment. Our mission, editorial values, and contributors.">
+  <meta name="author" content="Depth Meets Space Editorial">
+  <link rel="canonical" href="https://www.depthmeetsspace.com/about.html">
+  <!-- Open Graph -->
+  <meta property="og:title" content="About — Depth Meets Space">
+  <meta property="og:description" content="Independent editorial on interior design and architecture. Our mission, values, and the team behind the journal.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.depthmeetsspace.com/about.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=630&fit=crop">
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About Depth Meets Space",
+    "description": "Independent editorial on interior design and architecture.",
+    "url": "https://www.depthmeetsspace.com/about.html",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "Depth Meets Space Editorial",
+      "description": "An independent journal covering interior design, architecture, materials, lighting, and space planning."
+    }
+  }
+  </script>
+  <!-- Fonts & base styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&family=Playfair+Display:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <style>
+    /* ----- RESET & VARIABLES (same as homepage) ----- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    :root {
+      --bg: #fcfaf7;
+      --surface: #ffffff;
+      --text: #1e1e1e;
+      --text-secondary: #4a4a4a;
+      --muted: #7a7a7a;
+      --border: #e3dfd9;
+      --accent: #b16d4b;
+      --accent-soft: #f0e7e0;
+      --card-bg: #ffffff;
+      --shadow-sm: 0 4px 12px rgba(0,0,0,0.02), 0 1px 2px rgba(0,0,0,0.03);
+      --font-serif: 'Playfair Display', Georgia, serif;
+      --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+      --max-width: 1280px;
+      --content-width: 720px;
+      --radius: 8px;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-sans);
+      font-size: 1rem;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+    a {
+      color: var(--text);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    a:hover {
+      color: var(--accent);
+    }
+    /* ----- TYPOGRAPHY ----- */
+    h1, h2, h3, h4 {
+      font-family: var(--font-serif);
+      font-weight: 500;
+      line-height: 1.2;
+    }
+    h1 {
+      font-size: 2.6rem;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.25rem;
+    }
+    h2 {
+      font-size: 2rem;
+      letter-spacing: -0.01em;
+      margin: 2rem 0 1rem;
+    }
+    h3 {
+      font-size: 1.4rem;
+      margin: 1.75rem 0 0.75rem;
+    }
+    h4 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      font-family: var(--font-sans);
+      margin: 1.5rem 0 0.5rem;
+    }
+    p {
+      margin-bottom: 1.4rem;
+      color: var(--text-secondary);
+    }
+    /* ----- LAYOUT ----- */
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+    /* ----- HEADER (same as homepage) ----- */
+    .site-header {
+      border-bottom: 1px solid var(--border);
+      background: var(--surface);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(8px);
+      background: rgba(255,255,255,0.92);
+    }
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.9rem 0;
+    }
+    .logo {
+      display: flex;
+      align-items: baseline;
+      gap: 0.3rem;
+      font-family: var(--font-serif);
+      font-size: 1.7rem;
+      font-weight: 600;
+      letter-spacing: -0.03em;
+      color: var(--text);
+    }
+    .logo span {
+      font-weight: 300;
+      font-style: italic;
+      color: var(--accent);
+    }
+    .main-nav ul {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    .main-nav a {
+      color: var(--text-secondary);
+      padding-bottom: 0.2rem;
+      border-bottom: 1px solid transparent;
+    }
+    .main-nav a:hover,
+    .main-nav a.active {
+      color: var(--text);
+      border-bottom-color: var(--accent);
+    }
+    @media (max-width: 760px) {
+      .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+      }
+      .main-nav ul {
+        flex-wrap: wrap;
+        gap: 1.2rem;
+        font-size: 0.8rem;
+      }
+    }
+    /* ----- ABOUT PAGE SPECIFIC ----- */
+    .about-hero {
+      padding: 3rem 0 2rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 2.5rem;
+    }
+    .about-hero h1 {
+      font-size: 3rem;
+      max-width: 900px;
+      margin-bottom: 1rem;
+      line-height: 1.15;
+    }
+    .about-hero .lead {
+      font-size: 1.3rem;
+      color: var(--text-secondary);
+      max-width: 750px;
+      font-weight: 300;
+      line-height: 1.5;
+    }
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 340px;
+      gap: 3rem;
+      align-items: start;
+      margin: 2rem 0 3rem;
+    }
+    @media (max-width: 900px) {
+      .about-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+      }
+    }
+    .about-content {
+      max-width: var(--content-width);
+    }
+    .about-content h2 {
+      margin-top: 2.5rem;
+    }
+    .about-content h2:first-of-type {
+      margin-top: 0;
+    }
+    .about-content ul {
+      margin: 1.5rem 0 2rem 1.5rem;
+      color: var(--text-secondary);
+    }
+    .about-content li {
+      margin-bottom: 0.75rem;
+    }
+    .about-content img {
+      margin: 2rem 0;
+      border-radius: var(--radius);
+      width: 100%;
+      height: auto;
+    }
+    .about-content blockquote {
+      border-left: 3px solid var(--accent);
+      padding-left: 1.5rem;
+      margin: 2rem 0;
+      font-style: italic;
+      font-family: var(--font-serif);
+      font-size: 1.25rem;
+      color: var(--text);
+    }
+    .value-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    @media (max-width: 600px) {
+      .value-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .value-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+    }
+    .value-card h4 {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      font-family: var(--font-serif);
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+    .value-card p {
+      font-size: 0.95rem;
+      margin-bottom: 0;
+    }
+    .team-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    @media (max-width: 600px) {
+      .team-list {
+        grid-template-columns: 1fr;
+      }
+    }
+    .team-member {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+    }
+    .team-member img {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      object-fit: cover;
+      background: #ddd;
+      flex-shrink: 0;
+    }
+    .team-member h4 {
+      margin: 0 0 0.25rem;
+      font-family: var(--font-sans);
+      font-size: 1rem;
+      font-weight: 600;
+    }
+    .team-member .role {
+      font-size: 0.8rem;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      margin-bottom: 0.3rem;
+    }
+    .team-member p {
+      font-size: 0.85rem;
+      margin-bottom: 0;
+      line-height: 1.4;
+    }
+    /* SIDEBAR (same as homepage) */
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .sidebar-widget {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+    }
+    .sidebar-widget h3 {
+      font-family: var(--font-serif);
+      font-size: 1.2rem;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .widget-list {
+      list-style: none;
+    }
+    .widget-list li {
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .widget-list li:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    .widget-list a {
+      font-weight: 500;
+      font-size: 0.95rem;
+      line-height: 1.4;
+      display: block;
+      margin-bottom: 0.2rem;
+    }
+    .widget-meta {
+      font-size: 0.7rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    .author-box {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+    .author-box img {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      object-fit: cover;
+      background: #ddd;
+    }
+    .author-box strong {
+      display: block;
+      font-size: 0.95rem;
+    }
+    .author-box span {
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+    /* ----- FOOTER ----- */
+    .site-footer {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      padding: 3rem 0 2rem;
+      margin-top: 4rem;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 2rem;
+    }
+    @media (max-width: 800px) {
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media (max-width: 500px) {
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .footer-brand p {
+      font-size: 0.9rem;
+      max-width: 300px;
+      margin-top: 0.5rem;
+    }
+    .footer-col h4 {
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 1.25rem;
+      color: var(--muted);
+    }
+    .footer-col ul {
+      list-style: none;
+    }
+    .footer-col li {
+      margin-bottom: 0.6rem;
+      font-size: 0.9rem;
+    }
+    .footer-bottom {
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+      margin-top: 2.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Depth<span>Meets</span>Space</a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="terms.html">Terms Of Privacy</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="cookies.html">Cookies Policy</a></li>
+          <li><a href="disclaimer.html">Disclaimer</a></li>
+          <li><a href="categories.html">Categories</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- ABOUT HERO -->
+    <section class="about-hero">
+      <h1>We write about the spaces that shape us.</h1>
+      <p class="lead">Depth Meets Space is an independent journal for people who care about how interiors and architecture affect daily life — not just how they look in photographs.</p>
+    </section>
+
+    <!-- ABOUT CONTENT + SIDEBAR -->
+    <div class="about-grid">
+      <!-- MAIN ABOUT CONTENT -->
+      <div class="about-content">
+        <h2>Our mission</h2>
+        <p>Most design media celebrates novelty. We are interested in depth: why a room feels calm, how a material ages, what a floor plan reveals about the way we live. Our goal is to publish writing that is useful, honest, and built to last — the kind of criticism and guidance you return to years later.</p>
+
+        <p>We cover interior design, architecture, materials, lighting, furniture, and space planning. We write for designers, architects, and thoughtful homeowners who want more than surface-level inspiration. Every article is researched, edited, and written with care.</p>
+
+        <blockquote>“Good design writing does not tell you what to think. It gives you the tools to see more clearly.”</blockquote>
+
+        <h2>What we believe</h2>
+        <div class="value-grid">
+          <div class="value-card">
+            <h4>Depth over speed</h4>
+            <p>We publish fewer articles and take more time. Long-form essays, practical guides, and well-sourced criticism — not recycled listicles.</p>
+          </div>
+          <div class="value-card">
+            <h4>Honesty over hype</h4>
+            <p>We do not accept payment for coverage. When we recommend a material, a method, or a product, it is because we believe it is genuinely worth your attention.</p>
+          </div>
+          <div class="value-card">
+            <h4>Clarity over jargon</h4>
+            <p>Architecture and design can be intimidating. We write in plain language without dumbing down the ideas. Expertise should be accessible.</p>
+          </div>
+          <div class="value-card">
+            <h4>Longevity over trends</h4>
+            <p>We are less interested in what is fashionable this season and more interested in what will still matter in ten years — in design and in writing.</p>
+          </div>
+        </div>
+
+        <h2>Who we are</h2>
+        <p>Depth Meets Space is edited by a small team of designers, architects, and writers based in Europe and North America. Our contributors have worked on residential and commercial projects, taught design studios, and written for publications including <em>Domus</em>, <em>Dezeen</em>, and <em>The Architectural Review</em>.</p>
+
+        <div class="team-list">
+          <div class="team-member">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" alt="Portrait of Elena Marchetti, Editor-in-Chief.">
+            <div>
+              <h4>Elena Marchetti</h4>
+              <div class="role">Editor-in-Chief</div>
+              <p>Architectural designer and writer based in Milan. Contributes to Domus and The Architectural Review.</p>
+            </div>
+          </div>
+          <div class="team-member">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop" alt="Portrait of Julian Reyes, Senior Editor.">
+            <div>
+              <h4>Julian Reyes</h4>
+              <div class="role">Senior Editor</div>
+              <p>Architect and educator in New York. Focuses on residential design, urbanism, and material culture.</p>
+            </div>
+          </div>
+          <div class="team-member">
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop" alt="Portrait of Priya Nair, Materials Editor.">
+            <div>
+              <h4>Priya Nair</h4>
+              <div class="role">Materials Editor</div>
+              <p>Building scientist and writer. Covers sustainable materials, indoor air quality, and construction methods.</p>
+            </div>
+          </div>
+          <div class="team-member">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop" alt="Portrait of Marcus Chen, Lighting Editor.">
+            <div>
+              <h4>Marcus Chen</h4>
+              <div class="role">Lighting Editor</div>
+              <p>Lighting designer and consultant. Writes about daylight, color temperature, and the psychology of light.</p>
+            </div>
+          </div>
+        </div>
+
+        <h2>How we work</h2>
+        <p>Every article goes through a rigorous editorial process: pitching, research, drafting, fact-checking, and multiple rounds of editing. We cite sources, credit photographers, and correct errors promptly. When we do not know something, we say so.</p>
+        <p>We are reader-supported. We do not run display advertising, and we do not accept sponsored content. Our only revenue comes from our optional newsletter membership and affiliate partnerships with independent retailers we genuinely recommend. This keeps our editorial independent.</p>
+
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=500&fit=crop" alt="A calm, well-lit interior space representing the journal's editorial focus.">
+
+        <h2>Get in touch</h2>
+        <p>We welcome pitches, feedback, and corrections. If you would like to write for us, please see our <a href="contact.html" style="color: var(--accent); text-decoration: underline;">contact page</a> for submission guidelines. For general inquiries, email <strong>hello@depthmeetsspace.com</strong>.</p>
+        <p style="margin-top: 2rem; font-size: 0.9rem; color: var(--muted);">Last updated: March 2025</p>
+      </div>
+
+      <!-- SIDEBAR (reused from homepage) -->
+      <aside class="sidebar">
+        <div class="sidebar-widget">
+          <h3>About the Editor</h3>
+          <div class="author-box">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" alt="Portrait of Elena Marchetti, editor.">
+            <div>
+              <strong>Elena Marchetti</strong>
+              <span>Editor-in-Chief</span>
+            </div>
+          </div>
+          <p style="font-size: 0.85rem; margin-bottom: 0;">Elena is an architectural designer and writer based in Milan. She has contributed to Domus, Dezeen, and The Architectural Review.</p>
+        </div>
+        <div class="sidebar-widget">
+          <h3>Popular This Month</h3>
+          <ul class="widget-list">
+            <li><a href="#">The 10 Most Influential Interiors of the 20th Century</a><div class="widget-meta">12 min read · Interior Design</div></li>
+            <li><a href="#">Why Small Homes Are the Future of Sustainable Living</a><div class="widget-meta">9 min read · Architecture</div></li>
+            <li><a href="#">A Beginner’s Guide to Lighting Temperature</a><div class="widget-meta">7 min read · Lighting</div></li>
+            <li><a href="#">How to Mix Wood Tones Without Fear</a><div class="widget-meta">6 min read · Materials</div></li>
+            <li><a href="#">The Psychology of Color in Residential Spaces</a><div class="widget-meta">11 min read · Interior Design</div></li>
+          </ul>
+        </div>
+        <div class="sidebar-widget">
+          <h3>Editor’s Pick</h3>
+          <ul class="widget-list">
+            <li><a href="#">The Quiet Radicalism of Good Storage Design</a><div class="widget-meta">By Elena Marchetti · 13 min read</div></li>
+            <li><a href="#">Postmodernism in the Home: A Reappraisal</a><div class="widget-meta">By Julian Reyes · 16 min read</div></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" id="about-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" style="font-size:1.5rem;">Depth<span>Meets</span>Space</a>
+          <p>Independent editorial on interior design, architecture, and the built environment.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Interior Design</a></li>
+            <li><a href="#">Architecture</a></li>
+            <li><a href="#">Materials</a></li>
+            <li><a href="#">Lighting</a></li>
+            <li><a href="#">Space Planning</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+            <li><a href="cookies.html">Cookie Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Follow</h4>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Pinterest</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Newsletter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Depth Meets Space. All rights reserved.</span>
+        <span>Made with care for design readers.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- small script for smooth anchors (optional) -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        if (href === '#') return;
+        const target = document.querySelector(href);
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>

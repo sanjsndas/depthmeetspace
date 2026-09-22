@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO essentials -->
+  <title>Contact — Depth Meets Space | Editorial & Inquiries</title>
+  <meta name="description" content="Get in touch with Depth Meets Space editorial. Pitch ideas, request collaborations, or send feedback. We welcome thoughtful conversations on design and architecture.">
+  <meta name="author" content="Depth Meets Space Editorial">
+  <link rel="canonical" href="https://www.depthmeetsspace.com/contact.html">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Contact — Depth Meets Space">
+  <meta property="og:description" content="Reach the editorial team. Pitches, feedback, and partnerships.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.depthmeetsspace.com/contact.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=630&fit=crop">
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact Depth Meets Space",
+    "description": "Contact page for editorial inquiries, pitches, and feedback.",
+    "url": "https://www.depthmeetsspace.com/contact.html"
+  }
+  </script>
+  <!-- Fonts & base styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&family=Playfair+Display:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <style>
+    /* ----- RESET & VARIABLES (matching main site) ----- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    :root {
+      --bg: #fcfaf7;
+      --surface: #ffffff;
+      --text: #1e1e1e;
+      --text-secondary: #4a4a4a;
+      --muted: #7a7a7a;
+      --border: #e3dfd9;
+      --accent: #b16d4b;
+      --accent-soft: #f0e7e0;
+      --card-bg: #ffffff;
+      --shadow-sm: 0 4px 12px rgba(0,0,0,0.02), 0 1px 2px rgba(0,0,0,0.03);
+      --font-serif: 'Playfair Display', Georgia, serif;
+      --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+      --max-width: 1280px;
+      --content-width: 720px;
+      --radius: 8px;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-sans);
+      font-size: 1rem;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+    a {
+      color: var(--text);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    a:hover {
+      color: var(--accent);
+    }
+    /* ----- TYPOGRAPHY ----- */
+    h1, h2, h3, h4 {
+      font-family: var(--font-serif);
+      font-weight: 500;
+      line-height: 1.2;
+    }
+    h1 {
+      font-size: 2.6rem;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.25rem;
+    }
+    h2 {
+      font-size: 2rem;
+      letter-spacing: -0.01em;
+      margin: 2rem 0 1rem;
+    }
+    h3 {
+      font-size: 1.4rem;
+      margin: 1.75rem 0 0.75rem;
+    }
+    h4 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      font-family: var(--font-sans);
+      margin: 1.5rem 0 0.5rem;
+    }
+    p {
+      margin-bottom: 1.4rem;
+      color: var(--text-secondary);
+    }
+    /* ----- LAYOUT ----- */
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+    /* ----- HEADER (exactly as main) ----- */
+    .site-header {
+      border-bottom: 1px solid var(--border);
+      background: var(--surface);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(8px);
+      background: rgba(255,255,255,0.92);
+    }
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.9rem 0;
+    }
+    .logo {
+      display: flex;
+      align-items: baseline;
+      gap: 0.3rem;
+      font-family: var(--font-serif);
+      font-size: 1.7rem;
+      font-weight: 600;
+      letter-spacing: -0.03em;
+      color: var(--text);
+    }
+    .logo span {
+      font-weight: 300;
+      font-style: italic;
+      color: var(--accent);
+    }
+    .main-nav ul {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    .main-nav a {
+      color: var(--text-secondary);
+      padding-bottom: 0.2rem;
+      border-bottom: 1px solid transparent;
+    }
+    .main-nav a:hover,
+    .main-nav a.active {
+      color: var(--text);
+      border-bottom-color: var(--accent);
+    }
+    @media (max-width: 760px) {
+      .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+      }
+      .main-nav ul {
+        flex-wrap: wrap;
+        gap: 1.2rem;
+        font-size: 0.8rem;
+      }
+    }
+    /* ----- CONTACT PAGE SPECIFIC ----- */
+    .contact-intro {
+      padding: 2.5rem 0 1.5rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 2.5rem;
+    }
+    .contact-intro h1 {
+      font-size: 2.4rem;
+      max-width: 780px;
+      margin-bottom: 0.75rem;
+    }
+    .contact-intro p {
+      font-size: 1.2rem;
+      color: var(--text-secondary);
+      max-width: 700px;
+      font-weight: 300;
+    }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      margin-bottom: 3rem;
+    }
+    @media (max-width: 800px) {
+      .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+      }
+    }
+    .contact-form-wrap {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 2rem;
+    }
+    .contact-form-wrap h2 {
+      font-family: var(--font-serif);
+      font-size: 1.8rem;
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+    }
+    .contact-form-wrap > p {
+      font-size: 0.95rem;
+      margin-bottom: 1.5rem;
+    }
+    .form-group {
+      margin-bottom: 1.25rem;
+    }
+    .form-group label {
+      display: block;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+      color: var(--text-secondary);
+      margin-bottom: 0.4rem;
+    }
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      width: 100%;
+      padding: 0.8rem 1rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-family: var(--font-sans);
+      font-size: 0.95rem;
+      background: var(--bg);
+      transition: border 0.15s, box-shadow 0.15s;
+    }
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(177,109,75,0.08);
+    }
+    .form-group textarea {
+      min-height: 140px;
+      resize: vertical;
+    }
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    @media (max-width: 500px) {
+      .form-row {
+        grid-template-columns: 1fr;
+      }
+    }
+    .btn-submit {
+      background: var(--accent);
+      color: white;
+      border: none;
+      padding: 0.9rem 2rem;
+      border-radius: 40px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+      font-family: var(--font-sans);
+      transition: background 0.15s, transform 0.1s;
+      width: 100%;
+      margin-top: 0.5rem;
+    }
+    .btn-submit:hover {
+      background: #9a5a3a;
+    }
+    .btn-submit:active {
+      transform: scale(0.99);
+    }
+    .contact-info-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .info-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+    }
+    .info-card h3 {
+      font-family: var(--font-serif);
+      font-size: 1.3rem;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .info-item {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+      align-items: flex-start;
+    }
+    .info-item:last-child {
+      margin-bottom: 0;
+    }
+    .info-icon {
+      width: 20px;
+      height: 20px;
+      fill: var(--accent);
+      flex-shrink: 0;
+      margin-top: 0.2rem;
+    }
+    .info-item strong {
+      display: block;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+      font-weight: 600;
+      margin-bottom: 0.15rem;
+    }
+    .info-item p {
+      margin-bottom: 0;
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+    }
+    .info-item a {
+      color: var(--accent);
+      font-weight: 500;
+    }
+    .info-item a:hover {
+      text-decoration: underline;
+    }
+    .map-placeholder {
+      background: #eae6e0;
+      border-radius: var(--radius);
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+      border: 1px solid var(--border);
+      background-image: url('https://images.unsplash.com/photo-1524661135-423995f22d0b?w=600&h=300&fit=crop');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .map-placeholder::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(252,250,247,0.7);
+      backdrop-filter: blur(2px);
+    }
+    .map-placeholder span {
+      position: relative;
+      z-index: 1;
+      background: var(--surface);
+      padding: 0.5rem 1rem;
+      border-radius: 30px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .faq-mini {
+      margin-top: 2rem;
+    }
+    .faq-mini h3 {
+      font-family: var(--font-serif);
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }
+    .faq-mini-item {
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 0;
+    }
+    .faq-mini-item:last-child {
+      border-bottom: none;
+    }
+    .faq-mini-q {
+      font-weight: 600;
+      font-size: 0.95rem;
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+    }
+    .faq-mini-q span {
+      color: var(--accent);
+      font-size: 1.1rem;
+    }
+    .faq-mini-a {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease;
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      padding-right: 1.5rem;
+    }
+    .faq-mini-a.open {
+      max-height: 200px;
+      padding-top: 0.5rem;
+    }
+    /* ----- FOOTER (exactly as main) ----- */
+    .site-footer {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      padding: 3rem 0 2rem;
+      margin-top: 2rem;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 2rem;
+    }
+    @media (max-width: 800px) {
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media (max-width: 500px) {
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .footer-brand p {
+      font-size: 0.9rem;
+      max-width: 300px;
+      margin-top: 0.5rem;
+    }
+    .footer-col h4 {
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 1.25rem;
+      color: var(--muted);
+    }
+    .footer-col ul {
+      list-style: none;
+    }
+    .footer-col li {
+      margin-bottom: 0.6rem;
+      font-size: 0.9rem;
+    }
+    .footer-bottom {
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+      margin-top: 2.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+    .hidden {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Depth<span>Meets</span>Space</a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="terms.html">Terms Of Privacy</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="cookies.html">Cookies Policy</a></li>
+          <li><a href="disclaimer.html">Disclaimer</a></li>
+          <li><a href="categories.html">Categories</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- CONTACT INTRO -->
+    <section class="contact-intro">
+      <h1>Let’s talk about space, design, and the built world.</h1>
+      <p>Whether you’re pitching an essay, sharing feedback, or exploring a collaboration — we read every message.</p>
+    </section>
+
+    <!-- CONTACT GRID: FORM + INFO -->
+    <div class="contact-grid">
+      <!-- LEFT: CONTACT FORM -->
+      <div class="contact-form-wrap">
+        <h2>Send a message</h2>
+        <p>We typically respond within 2–3 business days.</p>
+        <form id="contactForm" onsubmit="handleContactSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option value="pitch">Article pitch</option>
+              <option value="feedback">Feedback / comment</option>
+              <option value="collaboration">Collaboration / partnership</option>
+              <option value="press">Press / media inquiry</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us what’s on your mind…" required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Send message</button>
+        </form>
+        <p id="formStatus" style="margin-top:1rem; font-size:0.9rem; display:none; color: var(--accent);"></p>
+      </div>
+
+      <!-- RIGHT: CONTACT INFO + MAP + MINI FAQ -->
+      <div class="contact-info-wrap">
+        <!-- Info card -->
+        <div class="info-card">
+          <h3>Editorial office</h3>
+          <div class="info-item">
+            <svg class="info-icon" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            <div>
+              <strong>Address</strong>
+              <p>Via Brera 12, 20121 Milano, Italy</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <svg class="info-icon" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            <div>
+              <strong>Email</strong>
+              <p><a href="mailto:editorial@depthmeetsspace.com">editorial@depthmeetsspace.com</a></p>
+            </div>
+          </div>
+          <div class="info-item">
+            <svg class="info-icon" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            <div>
+              <strong>Phone</strong>
+              <p>+39 02 1234 5678</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map placeholder -->
+        <div class="map-placeholder">
+          <span>Map — Milano, Brera district</span>
+        </div>
+
+        <!-- Mini FAQ -->
+        <div class="faq-mini">
+          <h3>Before you write</h3>
+          <div class="faq-mini-item">
+            <div class="faq-mini-q" onclick="toggleMiniFaq(this)">Do you accept guest articles? <span>+</span></div>
+            <div class="faq-mini-a">Yes, we accept pitches from designers, architects, and writers. Please include a short outline and your background.</div>
+          </div>
+          <div class="faq-mini-item">
+            <div class="faq-mini-q" onclick="toggleMiniFaq(this)">How long does a reply take? <span>+</span></div>
+            <div class="faq-mini-a">We aim to respond within 2–3 business days. Pitches may take slightly longer during busy periods.</div>
+          </div>
+          <div class="faq-mini-item">
+            <div class="faq-mini-q" onclick="toggleMiniFaq(this)">Can I republish your content? <span>+</span></div>
+            <div class="faq-mini-a">Please contact us for licensing. Generally, we allow short excerpts with a link back to the original.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" id="about">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" style="font-size:1.5rem;">Depth<span>Meets</span>Space</a>
+          <p>Independent editorial on interior design, architecture, and the built environment.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Interior Design</a></li>
+            <li><a href="#">Architecture</a></li>
+            <li><a href="#">Materials</a></li>
+            <li><a href="#">Lighting</a></li>
+            <li><a href="#">Space Planning</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+            <li><a href="cookies.html">Cookie Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Follow</h4>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Pinterest</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Newsletter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Depth Meets Space. All rights reserved.</span>
+        <span>Made with care for design readers.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT -->
+  <script>
+    // Mini FAQ toggle
+    function toggleMiniFaq(el) {
+      const answer = el.nextElementSibling;
+      const span = el.querySelector('span');
+      answer.classList.toggle('open');
+      span.textContent = answer.classList.contains('open') ? '−' : '+';
+    }
+
+    // Contact form submission (demo)
+    function handleContactSubmit(e) {
+      e.preventDefault();
+      const form = e.target;
+      const status = document.getElementById('formStatus');
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      if (!name || !email || !message) {
+        status.style.display = 'block';
+        status.style.color = '#c0392b';
+        status.textContent = 'Please fill in all required fields.';
+        return;
+      }
+
+      // Simulate successful send
+      status.style.display = 'block';
+      status.style.color = 'var(--accent)';
+      status.textContent = `Thank you, ${name}. Your message has been received. We’ll reply to ${email} soon. (Demo only)`;
+      form.reset();
+
+      // Optionally hide after a few seconds
+      setTimeout(() => {
+        status.style.display = 'none';
+      }, 6000);
+    }
+
+    // Smooth anchor scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        if (href === '#') return;
+        const target = document.querySelector(href);
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
